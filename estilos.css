@@ -1,0 +1,264 @@
+body {
+    background: linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc), linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc);
+    background-size: 20px 20px; /* Ajusta el tamaño de los cuadrados según sea necesario */
+    border:2px solid black;
+}
+
+.Titulo-Main{
+    background-color: #acaaaa;
+    border:2px solid black;
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    border-radius: 10px; /* Ajusta el valor para controlar la curvatura de los bordes */
+    font-size: large;
+    font-style: italic;
+    background-color: #706cd1;
+    padding: 20px;
+    border:2px solid black;
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+main{
+    background-color: #acaaaa;
+    width: 1300px;
+    height: auto;
+    border:2px solid black;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contenedor{
+    display:grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 350px ;
+    grid-gap:15px;
+    margin: 10px auto;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .contenedor > div{
+    position: relative;
+   text-align:center;
+   align-items: center;
+   
+   padding:85px;
+   font-size:25px;
+   font-weight:bold;
+   margin: 20px auto;
+  }
+
+  footer{
+    border-radius: 10px; /* Ajusta el valor para controlar la curvatura de los bordes */
+    font-size: large;
+    font-style: italic;
+    background-color: #d125e1;
+    padding: 20px;
+    border:2px solid black;
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+
+    .nuestrocontenedor1{
+        position: relative;
+         
+      }
+      .nuestraimagen1{
+        display: block;
+        
+      }
+      .nuestrobloque1{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        
+        
+      }
+      .nuestrotexto1{
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .nuestrocontenedor1:hover .nuestrobloque1{
+        opacity: 1;
+      }
+      .nuestrocontenedor1:hover .I1{
+        filter: brightness(50%); 
+      }
+
+
+      .nuestrocontenedor2{
+        position: relative;
+         
+      }
+      .nuestraimagen2{
+        display: block;
+        
+      }
+      .nuestrobloque2{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        
+        
+      }
+      .nuestrotexto2{
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .nuestrocontenedor2:hover .nuestrobloque2{
+        opacity: 1;
+      }
+      .nuestrocontenedor2:hover .I2{
+        filter: brightness(50%); 
+      }
+
+
+      .nuestrocontenedor3{
+        position: relative;
+         
+      }
+      .nuestraimagen3{
+        display: block;
+        
+      }
+      .nuestrobloque3{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        
+        
+      }
+      .nuestrotexto3{
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .nuestrocontenedor3:hover .nuestrobloque3{
+        opacity: 1;
+      }
+      .nuestrocontenedor3:hover .I3{
+        filter: brightness(50%); 
+      }
+
+      aside{
+        border:2px solid black;
+        border-radius: 25px; /* Ajusta el valor para controlar la curvatura de los bordes */
+        text-align:center;
+        margin: 20px;
+        background-color:rgba(236, 137, 194, 0.48);
+        font-size:25px;
+        font-weight:bold;
+        grid-column:1;
+        
+       }
+       
+       article{
+        border:2px solid black;
+        text-align:center;
+        margin: 20px;
+        
+        font-size:25px;
+        font-weight:bold;
+        grid-column:2;
+        
+       }
+
+       .pm{
+        
+        display:grid;
+        grid-template-columns: 0.7fr 2fr;
+        
+        width:1300px;
+        height:1000px;
+      }
+
+      .grid-container1 {
+        display: grid;
+        margin: 10px;
+        grid-template-columns: 50% 50%; /* 3 columnas con tamaños diferentes */
+        gap: 5px; /* Espacio entre las celdas */
+        grid-gap:3px;
+        height: 300px; /* Altura del grid (ajusta según sea necesario) */
+        width: 800px;
+    }
+    
+    .grid-item {
+        padding: 1px; /* Espacio interno de las celdas */
+        margin: 0;
+    }
+
+    
+    .grid-item img {
+        max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+        max-height: 100%; /* La imagen se ajustará al alto del contenedor */
+        
+       
+    }
+    .grid-container2 {
+        display: grid;
+        margin: 10px;
+        grid-gap:3px;
+        grid-template-columns: 1fr 1fr 1fr; /* 3 columnas con tamaños diferentes */
+        gap: 5px; /* Espacio entre las celdas */
+        height: 300px; /* Altura del grid (ajusta según sea necesario) */
+        width: 800px;
+    }
+
+    .zoom {
+        padding: 50px;
+        
+        transition: transform .2s; /* Animation */
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+      }
+      
+      .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
